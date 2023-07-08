@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IceVehicleActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Additional Details"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/engineDisplacementTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:text="Engine Displacement : "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/noOfCylinderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:text="Number of Cylinders : "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/engineDisplacementTextView" />
+
+    <EditText
+        android:id="@+id/engineDisplacementEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/engineDisplacementTextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="5sp"
+        android:onClick="getPriceOnClick"
+        android:text="Get Price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noOfCylinderTextView" />
+
+    <Spinner
+        android:id="@+id/noOfCylindersSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        app:layout_constraintStart_toEndOf="@+id/noOfCylinderTextView"
+        app:layout_constraintTop_toBottomOf="@+id/engineDisplacementEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Bikes Price Prediction</string>
+    <string-array name="company_name">
+        <item></item>
+        <item>AJS</item>
+        <item>Aeon</item>
+        <item>Ampere</item>
+        <item>Apollo</item>
+        <item>Aprilia</item>
+        <item>Arcfox</item>
+        <item>BMW</item>
+        <item>Bajaj</item>
+        <item>Benelli</item>
+        <item>Beta</item>
+        <item>Brixton Motorcycles</item>
+        <item>Buell Motorcycle Company</item>
+        <item>CCM</item>
+        <item>CFMOTO</item>
+        <item>Cagiva</item>
+        <item>Can-Am</item>
+        <item>Confederate</item>
+        <item>Daelim</item>
+        <item>Derbi</item>
+        <item>Ducati</item>
+        <item>Energica Motor Company</item>
+        <item>FB Mondial</item>
+        <item>Fantic</item>
+        <item>GasGas</item>
+        <item>Genuine Scooters</item>
+        <item>Hanway</item>
+        <item>Harley-Davidson</item>
+        <item>Hero</item>
+        <item>Hero Electric</item>
+        <item>Honda</item>
+        <item>Husqvarna</item>
+        <item>Hyosung</item>
+        <item>Indian</item>
+        <item>Italjet</item>
+        <item>Jawa</item>
+        <item>KTM</item>
+        <item>Kawasaki</item>
+        <item>Keeway</item>
+        <item>Kymco</item>
+        <item>Lambretta</item>
+        <item>Larry vs Harry</item>
+        <item>Leonart</item>
+        <item>Lexmoto</item>
+        <item>Lifan</item>
+        <item>MV Agusta</item>
+        <item>Mahindra</item>
+        <item>Mash</item>
+        <item>Moto Guzzi</item>
+        <item>Moto Morini</item>
+        <item>Mutt Motorcycles</item>
+        <item>NIU</item>
+        <item>Norton</item>
+        <item>Ontrack</item>
+        <item>Peugeot</item>
+        <item>Piaggio</item>
+        <item>Royal Alloy</item>
+        <item>Royal Enfield</item>
+        <item>SWM</item>
+        <item>SYM</item>
+        <item>Scomadi</item>
+        <item>Segway</item>
+        <item>Sherco</item>
+        <item>Sinnis</item>
+        <item>Super Soco</item>
+        <item>Suzuki</item>
+        <item>TVS</item>
+        <item>Triton Electric Bikes</item>
+        <item>Triumph</item>
+        <item>UM Motorcycles</item>
+        <item>Vespa</item>
+        <item>Victory</item>
+        <item>Vmoto Soco</item>
+        <item>Yamaha</item>
+        <item>Zero Motorcycles</item>
+        <item>Zontes</item>
+    </string-array>
+
+    <string-array name="country_list">
+        <item></item>
+        <item>Austria</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Taiwan</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+    </string-array>
+
+    <string-array name="seating_capacity">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="looks_list">
+        <item></item>
+        <item>Adventure</item>
+        <item>Adventure, sporty</item>
+        <item>Adventure, touring</item>
+        <item>Aggressive</item>
+        <item>Bobber</item>
+        <item>Bold</item>
+        <item>Bold, aggressive</item>
+        <item>Budget</item>
+        <item>Classic</item>
+        <item>Classic, bobber</item>
+        <item>Classic, rugged</item>
+        <item>Classic, stylish</item>
+        <item>Classic, vintage</item>
+        <item>Classy</item>
+        <item>Classy, aggressive</item>
+        <item>Classy, cruiser</item>
+        <item>Commuter</item>
+        <item>Cruiser</item>
+        <item>Dirt</item>
+        <item>Enduro</item>
+        <item>Fun</item>
+        <item>Futuristic</item>
+        <item>Modern</item>
+        <item>Modern, aggressive</item>
+        <item>Modern, bobber</item>
+        <item>Modern, muscular</item>
+        <item>Modern, off-road</item>
+        <item>Modern, rugged</item>
+        <item>Modern, sporty</item>
+        <item>Modern, stylish</item>
+        <item>Motocross</item>
+        <item>Naked</item>
+        <item>Practical</item>
+        <item>Race-inspired</item>
+        <item>Retro</item>
+        <item>Retro, classic</item>
+        <item>Retro-inspired</item>
+        <item>Retro-modern</item>
+        <item>Rugged</item>
+        <item>Sharp</item>
+        <item>Simple, reliable</item>
+        <item>Sleek</item>
+        <item>Sport</item>
+        <item>Sporty</item>
+        <item>Sporty, aggressive</item>
+        <item>Sporty, beginner-friendly</item>
+        <item>Stylish</item>
+        <item>Touring</item>
+        <item>Urban</item>
+    </string-array>
+
+    <string-array name="body_type_list">
+        <item></item>
+        <item>adventure</item>
+        <item>adventure tourer</item>
+        <item>adventure touring</item>
+        <item>bobber</item>
+        <item>cafe racer</item>
+        <item>cargo</item>
+        <item>classic</item>
+        <item>commuter</item>
+        <item>cruiser</item>
+        <item>dirt</item>
+        <item>dual-sport</item>
+        <item>electric scooter</item>
+        <item>enduro</item>
+        <item>fighter</item>
+        <item>hybrid</item>
+        <item>maxi-scooter</item>
+        <item>motocross</item>
+        <item>mountain</item>
+        <item>naked</item>
+        <item>naked streetfighter</item>
+        <item>off-road</item>
+        <item>racing</item>
+        <item>retro</item>
+        <item>roadster</item>
+        <item>scooter</item>
+        <item>scrambler</item>
+        <item>sport</item>
+        <item>sport touring</item>
+        <item>sports naked</item>
+        <item>standard</item>
+        <item>street</item>
+        <item>street naked</item>
+        <item>street scrambler</item>
+        <item>streetfighter</item>
+        <item>superbike</item>
+        <item>supermoto</item>
+        <item>supersport</item>
+        <item>tourer</item>
+        <item>tracker</item>
+        <item>trail</item>
+    </string-array>
+
+    <string-array name="no_of_cylinders">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

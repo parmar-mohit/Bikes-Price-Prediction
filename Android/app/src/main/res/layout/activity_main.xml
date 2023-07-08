@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Bike Details"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/companySelectionLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/companyTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Company  : "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/companySpinner"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/countrySelectionLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/countryTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Country  : "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/countrySpinner"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/horsepowerLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/horsepowerTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Horsepower (hp): "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/horsepowerEditText"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/torqueLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/torqueTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Torque (nm): "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/torqueEditText"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/seatingCapacityLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/seatingCapacityTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Seating Capacity  : "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/seatingCapacitySpinner"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/yearLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/yearTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Year : "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/yearEditText"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/looksLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/looksTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="35sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Looks  : "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/looksSpinner"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bodyTypeLinearView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bodyTypeTextView"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:text="Body Type : "
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/bodyTypeSpinner"
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/electricVehicleSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="10sp"
+                android:text="Electric Vehicle"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/proceedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="10sp"
+                android:onClick="proceedButtonOnClick"
+                android:text="Proceed" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
