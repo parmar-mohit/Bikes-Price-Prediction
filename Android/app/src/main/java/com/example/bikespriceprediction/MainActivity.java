@@ -123,10 +123,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = null;
         if( electricVehicleSwitch.isChecked() ){
             intent = new Intent(this, ElectricBikeAcitivity.class);
-            intent.putExtra(EXTRA_ELECTRIC_VEHICLE,true);
+            intent.putExtra(EXTRA_ELECTRIC_VEHICLE,1);
         }else{
             intent = new Intent(this,IceVehicleActivity.class);
-            intent.putExtra(EXTRA_ELECTRIC_VEHICLE,false);
+            intent.putExtra(EXTRA_ELECTRIC_VEHICLE,0);
         }
         intent.putExtra(EXTRA_COMPANY,company);
         intent.putExtra(EXTRA_COUNTRY,country);

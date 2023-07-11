@@ -5,3 +5,13 @@ The project will include an android application to access the ml model and a bac
 
 ### Dataset
 The dataset used to train the model is sourced from [kaggle.com](https://www.kaggle.com/datasets/peshimaammuzammil/2023-bike-model-dataset-all-data-you-need)
+
+### Interface of Android Application
+
+<table>
+    <tr>
+        <td><img src="./Images/Interface_1.png" height="350px"></td>
+        <td><img src="./Images/Interface_2.png" height="350px"></td>
+        <td><img src="./Images/Interface_3.png" height="350px"></td>
+    </tr>
+</table>
