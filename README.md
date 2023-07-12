@@ -6,6 +6,15 @@ The project will include an android application to access the ml model and a bac
 ### Dataset
 The dataset used to train the model is sourced from [kaggle.com](https://www.kaggle.com/datasets/peshimaammuzammil/2023-bike-model-dataset-all-data-you-need)
 
+### Docker Image
+
+Docker Image for ServerProgram has been created and uploaded to [docker registry](https://hub.docker.com/repository/docker/mohitparmar/bikes-price-prediction-serverprogram/general)
+To run the program using docker execute the following commands
+```
+docker pull mohitparmar/bikes-price-prediciton-serverprogram
+docker run -itd --network host mohitparmar/bikes-price-prediction-serverprogram
+```
+
 ### Interface of Android Application
 
 <table>
