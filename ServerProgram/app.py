@@ -42,4 +42,4 @@ def get_price():
     return jsonify({"Price":int(price[0])})
 
 if __name__ == "__main__":
-    app.run(host="192.168.1.26",port=80,debug=False)
+    app.run(port=80,debug=False)
