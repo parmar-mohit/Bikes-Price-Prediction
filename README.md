@@ -24,3 +24,7 @@ docker run -itd --network host mohitparmar/bikes-price-prediction-serverprogram
         <td><img src="./Images/Interface_3.png" height="350px"></td>
     </tr>
 </table>
+
+### Power BI Dashboard
+We have also created a power bi dashboard that helps us in data visualisation
+![Power BI Dashboard](./Images/Dashboard.png)
